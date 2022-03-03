@@ -19,8 +19,8 @@ const App = () => {
 
 	return (
 		<div className="m-5">
-			<h1 className="font-bold text-3xl">Hello React and Redux</h1>
-			<p className="text-xs text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, facere.</p>
+			<h1 className="font-bold text-3xl">Users List with React and Redux</h1>
+			<p className="text-xs text-gray-600">Create Read Update and Delete Users using React Redux and Redux Toolkit</p>
 			<div className="flex">
 				<form onSubmit={SendData} className="max-w-sm mt-6 mb-8 rounded-lg border border-gray-300 py-8 px-10">
 					{/* <!-- Name Field --> */}
@@ -56,10 +56,10 @@ const App = () => {
 						<p className="text-lg font-medium">Create User</p>
 					</button>
 				</form>
-				<div className="usersList ml-10">
+				<div className="usersList ml-10 mt-6">
 					<div className="grid grid-cols-3 gap-4">
 						{usersList.map((users) => (
-							<div key={users.id} className="p-2 border border-gray-400 rounded-md">
+							<div key={users.id} className="p-2 border border-gray-300 rounded-md">
 								<h1 className="font-bold text-md mb-2 text-gray-800">{users.name}</h1>
 								<p className="text-xs text-gray-600 pb-1">{users.university}</p>
 								{/* Update Name */}
