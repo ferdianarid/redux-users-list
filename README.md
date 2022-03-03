@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Users List with React and Redux
+Create Read Read Update and Delete User with React and Redux Toolkit
+
+<img src="https://raw.githubusercontent.com/ferdianar/redux-users-list/master/public/preview.png" alt="previewimage" />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
